@@ -2,21 +2,61 @@
     box-sizing: border-box;
     padding: 10px;
     margin: 10px;
-    background-color: coral;
 }
 
-.link {
-    color: black;
+.inline-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+    text-align: center;
     font-style: italic;
 }
 
+li {
+    padding-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .header {
-    display: inline-block;
+    display: block;
+    align-content: center;
     color: black;
     background-color: burlywood;
 }
 
 .header h1 {
-    padding: 20px;
+    text-align: center;
+    padding: 10px;
     font-size: 100px;
+}
+
+.info h2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    border-style: solid;
+    border-color: black;
+}
+
+.cantact li {
+    flex-direction: row;
+}
+
+.work h3 {
+    border-style: solid;
+    border-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+.contact h4 {
+    border-style: solid;
+    border-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
 }
