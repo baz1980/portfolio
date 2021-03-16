@@ -8,4 +8,4 @@ Please note that i am new to coding and as such have not yet built up a portfoli
 for future work to be added as this course continues, and ask for your understanding on this. i view this portfoilio website page as a work in progress
 that i will update and improve as my coding knowledge/skills allow.
 
-URL to my deployed website
+URL to my deployed website  https://baz1980.github.io/portfolio/
