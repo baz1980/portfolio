@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    background-color: coral;
+}
+
+.link {
+    color: black;
+    font-style: italic;
+}
+
+.header {
+    display: inline-block;
+    color: black;
+    background-color: burlywood;
+}
+
+.header h1 {
+    padding: 20px;
+    font-size: 100px;
+}
